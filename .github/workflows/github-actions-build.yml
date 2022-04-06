@@ -1,0 +1,12 @@
+name: CI
+on: [push]
+jobs:
+  validate-config:
+    name: validate-config
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Validate Config.plist
+        run: plutil EFI/OC/config.plist
