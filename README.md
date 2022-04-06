@@ -9,7 +9,7 @@
 
 |Component|Model|Notes|
 |--|--|--|
-|Motherboard|Gigabyte Z690 Gaming X DDR4 rev1.0|[BIOS Version = F7](/BIOS/Z690GAMINGXDDR4.F7)|
+|Motherboard|Gigabyte Z690 Gaming X DDR4 rev1.0|[BIOS Version = F8a](/BIOS/Z690GAMINGXDDR4.F8a)|
 |CPU|Intel i7-12700K|8 P-Cores, 4 E-Cores, 12 Ph-Cores, All enabled|
 |CPU Cooling|MSI MAG Core Liquid 360R 3x120mm||
 |RAM|Crucial 32GB (2x16GB) 3600MHz CL16 Ballistix Black|XMP Profile 1 - 3.6 GHz enabled, up to 5.2 GHz in macOS|
@@ -31,14 +31,22 @@
     4. Stripts are included for faster cleaning unnecessary parameters on my end
 
 ## BIOS
-- CFG-Lock - off
-- Fast Boot - off
-- VT-d - on
-- CSM - off
-- VT-x - on
-- Above 4G Encoding - on
-- Re-Size BAR Support - off *(in this case, can be on but config adjustment is needed)*
-- XHCI Hand-off - on
+- Tweaker > XMP = Profile 1
+- Tweaker > Advanced CPU Settings > Hyper Threading Technology = on
+- Tweaker > Advanced CPU Settings > CPU Cores Enabling Mode = Selectable Mode
+- Tweaker > Advanced CPU Settings > Enable All Cores (P+E)
+- Settings > IOPorts > Internal Graphics = on
+- Settings > IOPorts > HD Audio Controller = on
+- Settings > IOPorts > Above 4G Encoding = on
+- Settings > IOPorts > Re-Size BAR Support = off
+- Settings > IOPorts > USB Configuration > XHCI Hand-off = on
+- Settings > IOPorts > SATA Configuration > SATA Mode = AHCI
+- Settings > Miscellaneous > Intel Platform Trust Technology = on
+- Settings > Miscellaneous > VT-d = on
+- Boot > CFG-Lock = off
+- Boot > Fast Boot = off
+- Boot > Windows 10 Features = Windows 10
+- Boot > CSM Support = off
 
 ## Overclocking
 None for now, TBD
@@ -68,7 +76,7 @@ None for now, TBD
 |SMCSuperIO.kext|1.2.9|
 |NVMeFix.kext|1.0.9|
 |RestrictEvents.kext|1.0.7|
-|CpuTopologySync.kext|?
+|CpuTopologySync.kext|unknown [from here](https://gist.github.com/b00t0x/a13cefd4644e9d6d57908ce3420c3002/revisions)|
 |LucyRTL8125Ethernet.kext|2021-04-29
 |USBWakeFixup.kext|1.0
 |USBInjectAll.kext|for USB mapping only
@@ -78,8 +86,9 @@ None for now, TBD
 ![USB Mapping Scheme](/_/usb_darkMode.png#gh-dark-mode-only)
 ![USB Mapping Scheme](/_/usb_lightMode.png#gh-light-mode-only)
 
-## Geekbench Results:
-- @TODO
+## Performance Results:
+![Geekbench Summary](/_/geekbench.png)
+- [Result](https://browser.geekbench.com/v5/cpu/14144616)
   
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
