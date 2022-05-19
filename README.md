@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - macOS Monterey 12.4
-- OpenCore: 0.9.0
+- OpenCore: 0.8.0
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
