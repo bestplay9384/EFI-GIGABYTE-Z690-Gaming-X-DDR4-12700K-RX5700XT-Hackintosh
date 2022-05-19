@@ -1,17 +1,17 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- macOS Monterey 12.3.1
-- OpenCore: 0.7.9
+- macOS Monterey 12.4
+- OpenCore: 0.9.0
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
 
 |Component|Model|Notes|
 |--|--|--|
-|Motherboard|Gigabyte Z690 Gaming X DDR4 rev1.0|[BIOS Version = F8a](/BIOS/Z690GAMINGXDDR4.F8a)|
+|Motherboard|Gigabyte Z690 Gaming X DDR4 rev1.0|[BIOS Version = F8b](/BIOS/Z690GAMINGXDDR4.F8b)|
 |CPU|Intel i7-12700K|8 P-Cores, 4 E-Cores, 12 Ph-Cores, All enabled|
-|CPU Cooling|MSI MAG Core Liquid 360R 3x120mm||
+|CPU Cooling|MSI MAG Core Liquid 360R V2 3x120mm||
 |RAM|Crucial 32GB (2x16GB) 3600MHz CL16 Ballistix Black|XMP Profile 1 - 3.6 GHz enabled, up to 5.2 GHz in macOS|
 |iGPU|Intel UHD 770|not supported in macOS (yet?)|
 |dGPU|Sapphire Radeon RX 5700 XT NITRO+ 8GB GDDR6|`agdpmod=pikera` flag is needed to work OOB|
@@ -68,7 +68,7 @@ None for now, TBD
 ## Kexts used:
 |Kext|Version|
 |--|--|
-|AppleALC.kext|1.7.0|
+|AppleALC.kext|1.7.1|
 |Lilu.kext|1.6.0|
 |WhateverGreen.kext|1.5.8|
 |VirtualSMC.kext|1.2.9|
