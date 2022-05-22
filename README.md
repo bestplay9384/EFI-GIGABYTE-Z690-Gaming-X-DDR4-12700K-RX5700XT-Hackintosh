@@ -1,7 +1,7 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- macOS Monterey 12.4
+- Mac OS Monterey 12.4
 - OpenCore: 0.8.0
 
 ## Hardware Specification
@@ -10,11 +10,11 @@
 |Component|Model|Notes|
 |--|--|--|
 |Motherboard|Gigabyte Z690 Gaming X DDR4 rev1.0|[BIOS Version = F8b](/BIOS/Z690GAMINGXDDR4.F8b)|
-|CPU|Intel i7-12700K|8 P-Cores, 4 E-Cores, 12 Ph-Cores, All enabled|
+|CPU|Intel i7-12700K|8 P-Cores, 4 E-Cores, 12 P-Cores, All enabled|
 |CPU Cooling|MSI MAG Core Liquid 360R V2 3x120mm||
 |RAM|Crucial 32GB (2x16GB) 3600MHz CL16 Ballistix Black|XMP Profile 1 - 3.6 GHz enabled, up to 5.2 GHz in macOS|
 |iGPU|Intel UHD 770|not supported in macOS (yet?)|
-|dGPU|Sapphire Radeon RX 5700 XT NITRO+ 8GB GDDR6|`agdpmod=pikera` flag is needed to work OOB|
+|dGPU|Sapphire Radeon RX 5700 XT NITRO+ 8GB GDDR5|`agdpmod=pikera` flag is needed to work OOB|
 |Drive|Gigabyte 1TB M.2 PCIe Gen4 NVMe AORUS 7000s||
 |WiFi/Bluetooth|[WTXUP TX-AC94360](/_/wifi+bt.png)|uses chip Broadcom BCM94360CD, works OOB|
 |Power Supply|Corsair CX750M 750W 80 Plus Bronze||
@@ -24,10 +24,10 @@
 - SMBIOS used - iMacPro1,1
 - `agdpmod=pikera` for AMD dGPU
 - [PlatformInfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
-    1. Copy `_/scripts/platformInfo.dist` file to `_scripts/platformInfo` and fullfill platformInfo parameters
+    1. Copy `_/scripts/platformInfo.dist` file to `_scripts/platformInfo` and fullfill platformInfo parameters in it
     2. Use `sh _/scripts/apply.sh` command to apply Your values to config.plist
     3. You can also use OpenCore Configurator to generate & fill automatically OR use GenSMBIOS to generate only
-    4. Remember to use correct SMBIOS Type when generating!
+    4. Remember to use correct SMBIOS Type when generating
     4. Stripts are included for faster cleaning unnecessary parameters on my end
 
 ## BIOS
@@ -38,7 +38,7 @@
 - Settings > IOPorts > Internal Graphics = on
 - Settings > IOPorts > HD Audio Controller = on
 - Settings > IOPorts > Above 4G Encoding = on
-- Settings > IOPorts > Re-Size BAR Support = off
+- Settings > IOPorts > Re-Size BAR Support = on
 - Settings > IOPorts > USB Configuration > XHCI Hand-off = on
 - Settings > IOPorts > SATA Configuration > SATA Mode = AHCI
 - Settings > Miscellaneous > Intel Platform Trust Technology = on
@@ -76,11 +76,10 @@ None for now, TBD
 |SMCSuperIO.kext|1.2.9|
 |NVMeFix.kext|1.0.9|
 |RestrictEvents.kext|1.0.7|
-|CpuTopologySync.kext|unknown [from here](https://gist.github.com/b00t0x/a13cefd4644e9d6d57908ce3420c3002/revisions)|
 |LucyRTL8125Ethernet.kext|2021-04-29
 |USBWakeFixup.kext|1.0
 |USBInjectAll.kext|for USB mapping only
-|USBMap.kext|dedicated
+|USBMap_GA-Z690-Gaming-X.kext|dedicated
 
 ## USB Mapping:
 ![USB Mapping Scheme](/_/usb_darkMode.png#gh-dark-mode-only)

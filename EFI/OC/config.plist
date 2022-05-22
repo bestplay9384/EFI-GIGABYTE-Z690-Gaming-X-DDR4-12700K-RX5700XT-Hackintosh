@@ -12,7 +12,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG-ALT.aml</string>
+				<string>SSDT-PLUG-ALT-Z690.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -28,23 +28,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>DMA Controller</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-DMAC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>DMA Remap Table</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-DMAR.aml</string>
+				<string>SSDT-EC-USBX-Z690.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -254,7 +238,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>SetupVirtualMap</key>
 			<false/>
 			<key>SignalAppleOS</key>
@@ -574,24 +558,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>CpuTopologySync.kext</string>
-				<key>Comment</key>
-				<string>Corrects Cores &amp; Threads count of CPU</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CpuTopologySync</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>USBWakeFixup.kext</string>
 				<key>Comment</key>
 				<string>v1</string>
@@ -628,9 +594,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBMap_dedicated.kext</string>
+				<string>USBMap_GA-Z690-Gaming-X.kext</string>
 				<key>Comment</key>
-				<string>Gigabyte Z690 Gaming X USBMap-generated</string>
+				<string>USBMap</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
