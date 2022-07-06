@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Monterey 12.4
-- OpenCore: 0.8.1
+- OpenCore: 0.8.2
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -24,11 +24,11 @@
 - SMBIOS used - iMacPro1,1
 - `agdpmod=pikera` for AMD dGPU
 - [PlatformInfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
-    1. Copy `_/scripts/platformInfo.dist` file to `_scripts/platformInfo` and fullfill platformInfo parameters in it
+    1. Copy `_/scripts/platformInfo.dist` file to `_scripts/platformInfo` and fullfill platformInfo parameters inside this file
     2. Use `sh _/scripts/apply.sh` command to apply Your values to config.plist
     3. You can also use OpenCore Configurator to generate & fill automatically OR use GenSMBIOS to generate only
     4. Remember to use correct SMBIOS Type when generating
-    4. Stripts are included for faster cleaning unnecessary parameters on my end
+    4. Scripts are included for faster cleaning unnecessary parameters on my end
 
 ## BIOS
 - Tweaker > XMP = Profile 1
@@ -68,13 +68,13 @@ None for now, TBD
 ## Kexts used:
 |Kext|Version|
 |--|--|
-|AppleALC.kext|1.7.2|
-|Lilu.kext|1.6.0|
-|WhateverGreen.kext|1.5.9|
-|VirtualSMC.kext|1.2.9|
-|SMCProcessor.kext|1.2.9|
-|SMCSuperIO.kext|1.2.9|
-|NVMeFix.kext|1.0.9|
+|AppleALC.kext|1.7.3|
+|Lilu.kext|1.6.1|
+|WhateverGreen.kext|1.6.0|
+|VirtualSMC.kext|1.3.0|
+|SMCProcessor.kext|1.3.0|
+|SMCSuperIO.kext|1.3.0|
+|NVMeFix.kext|1.1.0|
 |RestrictEvents.kext|1.0.7|
 |LucyRTL8125Ethernet.kext|2021-04-29
 |USBWakeFixup.kext|1.0
