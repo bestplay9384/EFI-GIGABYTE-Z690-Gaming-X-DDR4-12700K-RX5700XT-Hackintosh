@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Monterey 12.5.1
-- OpenCore: 0.8.3
+- OpenCore: 0.8.4
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -68,7 +68,7 @@ None for now, TBD
 ## Kexts used:
 |Kext|Version|
 |--|--|
-|AppleALC.kext|1.7.4|
+|AppleALC.kext|1.7.5|
 |Lilu.kext|1.6.2|
 |WhateverGreen.kext|1.6.1|
 |VirtualSMC.kext|1.3.0|
