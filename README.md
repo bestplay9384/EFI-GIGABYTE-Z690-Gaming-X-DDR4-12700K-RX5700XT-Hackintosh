@@ -1,7 +1,7 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Monterey 12.6
+- Mac OS Monterey 12.6.1
 - OpenCore: 0.8.5
 
 ## Hardware Specification
@@ -75,7 +75,7 @@ None for now, TBD
 |SMCProcessor.kext|1.3.0|
 |SMCSuperIO.kext|1.3.0|
 |NVMeFix.kext|1.1.0|
-|RestrictEvents.kext|1.0.7|
+|RestrictEvents.kext|1.0.8|
 |LucyRTL8125Ethernet.kext|2021-04-29
 |USBWakeFixup.kext|1.0
 |USBInjectAll.kext|for USB mapping only
