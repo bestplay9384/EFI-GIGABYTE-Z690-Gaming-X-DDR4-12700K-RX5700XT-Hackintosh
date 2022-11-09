@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Ventura 13.0
-- OpenCore: 0.8.5
+- OpenCore: 0.8.6
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -68,14 +68,14 @@ None for now, TBD
 ## Kexts used:
 |Kext|Version|
 |--|--|
-|AppleALC.kext|1.7.5|
+|AppleALC.kext|1.7.6|
 |Lilu.kext|1.6.2|
 |WhateverGreen.kext|1.6.1|
 |VirtualSMC.kext|1.3.0|
 |SMCProcessor.kext|1.3.0|
 |SMCSuperIO.kext|1.3.0|
 |NVMeFix.kext|1.1.0|
-|RestrictEvents.kext|1.0.8|
+|RestrictEvents.kext|1.0.9|
 |LucyRTL8125Ethernet.kext|2021-04-29
 |USBWakeFixup.kext|1.0
 |USBInjectAll.kext|for USB mapping only
