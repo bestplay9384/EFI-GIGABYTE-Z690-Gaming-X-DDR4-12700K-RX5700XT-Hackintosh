@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Ventura 13.1
-- OpenCore: 0.8.7
+- OpenCore: 0.8.8
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -68,9 +68,9 @@ None for now, TBD
 ## Kexts used:
 |Kext|Version|
 |--|--|
-|AppleALC.kext|1.7.7|
-|Lilu.kext|1.6.2|
-|WhateverGreen.kext|1.6.2|
+|AppleALC.kext|1.7.8|
+|Lilu.kext|1.6.3|
+|WhateverGreen.kext|1.6.3|
 |VirtualSMC.kext|1.3.0|
 |SMCProcessor.kext|1.3.0|
 |SMCSuperIO.kext|1.3.0|
