@@ -1,8 +1,8 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Ventura 13.2
-- OpenCore: 0.8.8
+- Mac OS Ventura 13.2.1
+- OpenCore: 0.8.9
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -68,9 +68,9 @@ None for now, TBD
 ## Kexts used:
 |Kext|Version|
 |--|--|
-|AppleALC.kext|1.7.8|
+|AppleALC.kext|1.7.9|
 |Lilu.kext|1.6.3|
-|WhateverGreen.kext|1.6.3|
+|WhateverGreen.kext|1.6.4|
 |VirtualSMC.kext|1.3.0|
 |SMCProcessor.kext|1.3.0|
 |SMCSuperIO.kext|1.3.0|
