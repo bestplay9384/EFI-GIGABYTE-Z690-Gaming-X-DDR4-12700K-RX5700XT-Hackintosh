@@ -1,8 +1,8 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Ventura 13.3.1 (a)
-- OpenCore: 0.9.2
+- Mac OS Ventura 13.4
+- OpenCore: 0.9.3
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -68,14 +68,14 @@ None for now, TBD
 ## Kexts used:
 |Kext|Version|
 |--|--|
-|AppleALC.kext|1.8.2|
-|Lilu.kext|1.6.5|
-|WhateverGreen.kext|1.6.4|
-|VirtualSMC.kext|1.3.1|
-|SMCProcessor.kext|1.3.1|
-|SMCSuperIO.kext|1.3.1|
+|AppleALC.kext|1.8.3|
+|Lilu.kext|1.6.6|
+|WhateverGreen.kext|1.6.5|
+|VirtualSMC.kext|1.3.2|
+|SMCProcessor.kext|1.3.2|
+|SMCSuperIO.kext|1.3.2|
 |NVMeFix.kext|1.1.0|
-|RestrictEvents.kext|1.1.1|
+|RestrictEvents.kext|1.1.2|
 |LucyRTL8125Ethernet.kext|2021-04-29
 |USBWakeFixup.kext|1.0
 |USBInjectAll.kext|for USB mapping only
