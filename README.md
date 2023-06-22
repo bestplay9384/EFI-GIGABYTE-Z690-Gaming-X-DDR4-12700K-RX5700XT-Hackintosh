@@ -1,7 +1,7 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Ventura 13.4
+- Mac OS Ventura 13.4.1
 - OpenCore: 0.9.3
 
 ## Hardware Specification
