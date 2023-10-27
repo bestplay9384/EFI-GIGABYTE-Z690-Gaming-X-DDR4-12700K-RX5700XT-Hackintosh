@@ -1,7 +1,7 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Sonoma 14.0
+- Mac OS Sonoma 14.1
 - OpenCore: 0.9.5
 
 ## Hardware Specification
@@ -80,6 +80,7 @@ None for now, TBD
 | USBWakeFixup.kext            | 1.0                  |
 | USBInjectAll.kext            | for USB mapping only |
 | USBMap_GA-Z690-Gaming-X.kext | dedicated            |
+| AMFIPass.kext                | 1.4.0                |
 
 ## USB Mapping:
 ![USB Mapping Scheme](/_/usb_darkMode.png#gh-dark-mode-only)
