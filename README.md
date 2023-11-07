@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Sonoma 14.1
-- OpenCore: 0.9.5
+- OpenCore: 0.9.6
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -68,7 +68,7 @@ None for now, TBD
 ## Kexts used:
 | Kext                         | Version              |
 |------------------------------|----------------------|
-| AppleALC.kext                | 1.8.6                |
+| AppleALC.kext                | 1.8.7                |
 | Lilu.kext                    | 1.6.7                |
 | WhateverGreen.kext           | 1.6.6                |
 | VirtualSMC.kext              | 1.3.2                |
