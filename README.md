@@ -1,7 +1,7 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Sonoma 14.3
+- Mac OS Sonoma 14.3.1
 - OpenCore: 0.9.8
 
 ## Hardware Specification
@@ -25,7 +25,9 @@
 - `agdpmod=pikera` for AMD dGPU
 - [PlatformInfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
     1. Copy `_/scripts/platformInfo.dist` file to `_scripts/platformInfo` and fullfill platformInfo parameters inside this file
-    2. Use `sh _/scripts/apply.sh` command to apply Your values to config.plist
+    2. Then:
+        1. To APPLY parameters to config.plist use command: `sh _/scripts/run.sh --apply`
+        2. To REVERT parameters from config.plist use command: `sh _/scripts/run.sh --revert`
     3. You can also use OpenCore Configurator to generate & fill automatically OR use GenSMBIOS to generate only
     4. Remember to use correct SMBIOS Type when generating
     5. Scripts are included for faster cleaning unnecessary parameters on my end
