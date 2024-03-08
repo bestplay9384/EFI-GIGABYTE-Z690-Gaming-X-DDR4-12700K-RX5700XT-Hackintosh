@@ -83,6 +83,8 @@ None for now, TBD
 | USBInjectAll.kext            | for USB mapping only |
 | USBMap_GA-Z690-Gaming-X.kext | dedicated            |
 | AMFIPass.kext                | 1.4.0                |
+| IO82011FamilyLegacy.kext     | 1.0.0                |
+| IOSkywalkFamily.kext         | 1.1.0                |
 
 ## USB Mapping:
 ![USB Mapping Scheme](/_/usb_darkMode.png#gh-dark-mode-only)
