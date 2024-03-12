@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Sonoma 14.4
-- OpenCore: 0.9.8
+- OpenCore: 0.9.9
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
