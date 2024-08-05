@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Sonoma 14.6
-- OpenCore: 1.0.0
+- OpenCore: 1.0.1
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -70,12 +70,12 @@ None for now, TBD
 ## Kexts used:
 | Kext                         | Version              |
 |------------------------------|----------------------|
-| AppleALC.kext                | 1.9.0                |
-| Lilu.kext                    | 1.6.7                |
-| WhateverGreen.kext           | 1.6.6                |
-| VirtualSMC.kext              | 1.3.2                |
-| SMCProcessor.kext            | 1.3.2                |
-| SMCSuperIO.kext              | 1.3.2                |
+| AppleALC.kext                | 1.9.1                |
+| Lilu.kext                    | 1.6.8                |
+| WhateverGreen.kext           | 1.6.7                |
+| VirtualSMC.kext              | 1.3.3                |
+| SMCProcessor.kext            | 1.3.3                |
+| SMCSuperIO.kext              | 1.3.3                |
 | NVMeFix.kext                 | 1.1.1                |
 | RestrictEvents.kext          | 1.1.2                |
 | LucyRTL8125Ethernet.kext     | 2021-04-29           |
