@@ -1,7 +1,7 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Sonoma 14.7
+- Mac OS Sequoia 15.0
 - OpenCore: 1.0.1
 
 ## Hardware Specification
