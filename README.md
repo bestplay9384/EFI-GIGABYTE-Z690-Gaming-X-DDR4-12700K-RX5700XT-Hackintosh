@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Sequoia 15.1.1
-- OpenCore: 1.0.2
+- OpenCore: 1.0.3
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -70,13 +70,13 @@ None for now, TBD
 ## Kexts used:
 | Kext                         | Version              |
 |------------------------------|----------------------|
-| AppleALC.kext                | 1.9.2                |
-| Lilu.kext                    | 1.6.9                |
-| WhateverGreen.kext           | 1.6.8                |
-| VirtualSMC.kext              | 1.3.4                |
-| SMCProcessor.kext            | 1.3.4                |
-| SMCSuperIO.kext              | 1.3.4                |
-| NVMeFix.kext                 | 1.1.1                |
+| AppleALC.kext                | 1.9.3                |
+| Lilu.kext                    | 1.7.0                |
+| WhateverGreen.kext           | 1.6.9                |
+| VirtualSMC.kext              | 1.3.5                |
+| SMCProcessor.kext            | 1.3.5                |
+| SMCSuperIO.kext              | 1.3.5                |
+| NVMeFix.kext                 | 1.1.2                |
 | RestrictEvents.kext          | 1.1.5                |
 | LucyRTL8125Ethernet.kext     | 2021-04-29           |
 | USBWakeFixup.kext            | 1.0                  |
