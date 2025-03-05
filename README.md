@@ -2,7 +2,7 @@
 
 ## Last Updated Configuration Summary
 - Mac OS Sequoia 15.3.1
-- OpenCore: 1.0.3
+- OpenCore: 1.0.4
 
 ## Hardware Specification
 ![Motherboard](/_/mobo.png)
@@ -70,7 +70,7 @@ None for now, TBD
 ## Kexts used:
 | Kext                         | Version              |
 |------------------------------|----------------------|
-| AppleALC.kext                | 1.9.3                |
+| AppleALC.kext                | 1.9.4                |
 | Lilu.kext                    | 1.7.0                |
 | WhateverGreen.kext           | 1.6.9                |
 | VirtualSMC.kext              | 1.3.5                |
