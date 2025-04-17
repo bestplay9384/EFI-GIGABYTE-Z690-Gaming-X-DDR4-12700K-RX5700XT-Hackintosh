@@ -1,7 +1,7 @@
 # Gigabyte Z690 Gaming X DDR4 + i7 12700K + RX 5700 XT
 
 ## Last Updated Configuration Summary
-- Mac OS Sequoia 15.4
+- Mac OS Sequoia 15.4.1
 - OpenCore: 1.0.4
 
 ## Hardware Specification
@@ -73,7 +73,7 @@ None for now, TBD
 | AppleALC.kext                | 1.9.4                |
 | Lilu.kext                    | 1.7.0                |
 | WhateverGreen.kext           | 1.6.9                |
-| VirtualSMC.kext              | 1.3.5                |
+| VirtualSMC.kext              | 1.3.6                |
 | SMCProcessor.kext            | 1.3.5                |
 | SMCSuperIO.kext              | 1.3.5                |
 | NVMeFix.kext                 | 1.1.2                |
