@@ -21,7 +21,7 @@
 | Case           | SilentiumPC Signum SG7V EVO TG ARGB                |                                                                                                                                                                                                 |
 
 ## Config
-- SMBIOS used - iMacPro1,1
+- SMBIOS used - [MacPro7,1](https://everymac.com/ultimate-mac-lookup/?search_keywords=MacPro7,1) ~~[iMacPro1,1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMacPro1,1)~~
 - `agdpmod=pikera` for AMD dGPU
 - [PlatformInfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
     1. Copy `_/scripts/platformInfo.dist` file to `_scripts/platformInfo` and fullfill platformInfo parameters inside this file
@@ -82,6 +82,8 @@ None for now, TBD
 | USBWakeFixup.kext            | 1.0                  |
 | USBInjectAll.kext            | for USB mapping only |
 | USBMap_GA-Z690-Gaming-X.kext | dedicated            |
+| CPUFriend.kext               | dedicated            |
+| CPUFriendDataProvider.kext   | dedicated            |
 | AMFIPass.kext                | 1.4.1                |
 | IO82011FamilyLegacy.kext     | 1.0.0                |
 | IOSkywalkFamily.kext         | 1.1.0                |
@@ -91,8 +93,9 @@ None for now, TBD
 ![USB Mapping Scheme](/_/usb_lightMode.png#gh-light-mode-only)
 
 ## Performance Results:
-![Geekbench Summary](/_/geekbench.png)
-- [Result](https://browser.geekbench.com/v5/cpu/14144616)
+![Geekbench Summary](/_/geekbench_MacPro7,1.png)
+- [Result MacPro7,1](https://browser.geekbench.com/v6/cpu/12363533)
+- ~~[Result iMacPro1,1](https://browser.geekbench.com/v5/cpu/14144616)~~
   
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
